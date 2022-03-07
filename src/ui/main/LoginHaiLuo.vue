@@ -3,11 +3,11 @@
     <form @submit.prevent="onLoginSubmit">
       <div>
         <label for="loginName">用户名</label>
-        <input id="loginName" type="text" name="account" value="18583399612" />
+        <input id="loginName" type="text" name="account" value="" />
       </div>
       <div>
         <label for="loginPwd">密码</label>
-        <input id="loginPwd" type="password" name="password" value="198906l2" />
+        <input id="loginPwd" type="password" name="password" value="" />
       </div>
       <div>
         <button type="submit">登录</button>

@@ -24,7 +24,7 @@ import { setItem } from "../util/storageHelper";
 import ConnectionStatus from "../../wfc/client/connectionStatus";
 import EventType from "../../wfc/client/wfcEvent";
 
-axios.defaults.baseURL = "https://hlapitest.jwell56.com";
+axios.defaults.baseURL = "https://hlapi.jwell56.com";
 axios.defaults.headers.common.client = "hlweb";
 
 // 密码加密key
